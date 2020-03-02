@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eYu-q0-yOf" customClass="FinishJobView" customModule="Joldie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8TB-dZ-aWJ" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                    <subviews>
+                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Lxk-eu-zde" userLabel="Info View">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B66-h7-ZlH">
+                                    <rect key="frame" x="16" y="15" width="343" height="55"/>
+                                    <color key="backgroundColor" red="0.79200834040000001" green="0.79183638099999998" blue="0.81246107820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="343" id="AA5-Lf-T9u"/>
+                                        <constraint firstAttribute="height" constant="55" id="cDn-c8-AQ8"/>
+                                    </constraints>
+                                    <state key="normal" title="Found !">
+                                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="finishJobAction:" destination="eYu-q0-yOf" eventType="touchUpInside" id="fch-yC-CoH"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.90486549156464624" green="0.9138245558375635" blue="0.9138245558375635" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="B66-h7-ZlH" secondAttribute="bottom" constant="15" id="0eH-2f-3go"/>
+                                <constraint firstItem="B66-h7-ZlH" firstAttribute="top" secondItem="Lxk-eu-zde" secondAttribute="top" constant="15" id="Uy4-3A-8j5"/>
+                                <constraint firstItem="B66-h7-ZlH" firstAttribute="leading" secondItem="Lxk-eu-zde" secondAttribute="leading" constant="16" id="ZkP-Zx-XaN"/>
+                                <constraint firstAttribute="trailing" secondItem="B66-h7-ZlH" secondAttribute="trailing" constant="16" id="tDk-3a-KPm"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Lxk-eu-zde" firstAttribute="centerY" secondItem="8TB-dZ-aWJ" secondAttribute="centerY" id="52e-J6-wIh"/>
+                        <constraint firstItem="Lxk-eu-zde" firstAttribute="top" secondItem="8TB-dZ-aWJ" secondAttribute="top" id="QMm-jB-vI2"/>
+                        <constraint firstAttribute="trailing" secondItem="Lxk-eu-zde" secondAttribute="trailing" id="mCU-VS-gzd"/>
+                        <constraint firstItem="Lxk-eu-zde" firstAttribute="leading" secondItem="8TB-dZ-aWJ" secondAttribute="leading" id="qsF-jy-ReW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8TB-dZ-aWJ" secondAttribute="trailing" id="X11-bA-lzK"/>
+                <constraint firstAttribute="bottom" secondItem="8TB-dZ-aWJ" secondAttribute="bottom" id="h54-lS-o1s"/>
+                <constraint firstItem="8TB-dZ-aWJ" firstAttribute="top" secondItem="eYu-q0-yOf" secondAttribute="top" id="iTr-5t-szz"/>
+                <constraint firstItem="8TB-dZ-aWJ" firstAttribute="leading" secondItem="eYu-q0-yOf" secondAttribute="leading" id="sDN-uV-UbD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="54W-gs-1pl"/>
+            <connections>
+                <outlet property="finishJobBtn" destination="B66-h7-ZlH" id="elC-T8-Ouh"/>
+            </connections>
+            <point key="canvasLocation" x="51.5" y="-186.5"/>
+        </view>
+    </objects>
+</document>

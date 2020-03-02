@@ -1,0 +1,119 @@
+/*
+ Localizable.strings
+ Jolty
+ 
+ Created by Tomás Fernandez Nuñez on 30/09/2018.
+ Copyright © 2018 Tomás Fernandez Nuñez. All rights reserved.
+ */
+
+
+"Oops..." = "Oops...";
+"Okay, forgetful" = "Okay, forgetful";
+"Ok" = "Ok";
+"Come, I'm here!" = "Come, I'm here!";
+"I'm coming!" = "I'm coming!";
+"needs a charger:" = "needs a charger:";
+"Be the first to help!" = "Be the first to help!";
+"Cancel" = "Cancel";
+"Enter your email" = "Enter your email";
+"Send" = "Send";
+"Empty field" = "Empty field";
+"Mail field is empty" = "Mail field is empty";
+"You must be logged in order to fully use the App" = "You must be logged in order to fully use the App";
+"Do you want to log out?" = "Do you want to log out?";
+"Log Out" = "Log Out";
+"has" = "has";
+"No" = "No";
+"Yes" = "Yes";
+"Yes!" = "Yes!";
+"So did you find" = "So did you find";
+"Not yet" = "Not yet";
+"Let's save battery" = "Let's save battery";
+"Go to Settings, then go to Battery and activate Low Power Mode" = "Go to Settings, then go to Battery and activate Low Power Mode";
+"Go To Settings" = "Go To Settings";
+"Location Access Requested" = "Location Access Requested";
+"The location permission was not authorized. Please enable it in Settings to continue." = "The location permission was not authorized. Please enable it in Settings to continue.";
+"Settings" = "Settings";
+"Login required" = "Login required";
+"To fully use Jolty you must be signed in. Is very fast tho" = "To fully use Jolty you must be signed in. Is very fast tho";
+"Joltyrs found" = "Joltyrs found";
+"You can't request" = "You can't request";
+"You cannot request a charger at this time. Sorry" = "You cannot request a charger at this time. Sorry";
+"Activity" = "Activity";
+"My Settings" = "My Settings";
+"Search distance in meters" = "Search distance in meters";
+"Tap to find a charger sharer" = "Tap to find a charger sharer";
+
+//Last user message
+"Use your last magic words to convince a rescuer to save you" = "Use your last magic words to convince a rescuer to save you";
+"Use your last words to describe where you are and what you bring on" = "Use your last words to describe where you are and what you bring on";
+"Describe why someone should lend you a charger" = "Describe why someone should lend you a charger";
+
+"Forgot my charger at home! I invite you a coffee" = "Forgot my charger at home! I invite you a coffee";
+"Send a jolty" = "Send a jolty";
+"Bring help" = "Bring help";
+"You must convince the rescuer to save you" = "You must convince the rescuer to save you";
+"Push notifications now won't be received when someone near request a charger" = "Push notifications now won't be received when someone near request a charger";
+"Push notifications now will be received when someone near you request a charger" = "Push notifications now will be received when someone near you request a charger";
+
+"Log in with facebook" = "Log in with facebook";
+
+"Email" = "Email";
+"Password" = "Password";
+"Your email" = "Your email";
+"Your password" = "Your password";
+"Password must be longer" = "Password must be longer";
+"Please enter a valid email" = "Please enter a valid email";
+"Confirm password" = "Confirm password";
+"Name" = "Name";
+"Last name" = "Last name";
+"Your password again" = "Your password again";
+"Your first name" = "Your first name";
+"Your last name" = "Your last name";
+"Passwords must match" = "Passwords must match";
+"Done" = "Done";
+"Close" = "Close";
+"Select which place" = "Select which place";
+"Are you inside a place?" = "Are you inside a place?";
+"Select yes if you want to choose a place, select no if you want to use your exact location" = "Select yes if you want to choose a place, select no if you want to use your exact location";
+
+
+"You have" = "You have";
+"You must be logged in" = "You must be logged in";
+"you are" = "you are";
+"User created" = "User created";
+"No activity by now" = "No activity by now";
+"You are doing it " = "You are doing it  ";
+
+//Rate User
+"bad" = "bad";
+"normal" = "normal";
+"good" = "good";
+"great" = "great";
+
+"No activity yet!" = "No activity yet!";
+"How was" = "How was";
+"Rating user" = "Rating user";
+"Find quick!" = "Find quick!";
+"I just found " = "I just found ";
+"Are you in one of these places?" = "Are you in one of these places?";
+
+"I almost always carry the charger with me and I am open to share it." = "I almost always carry the charger with me and I am open to share it.";
+"Alerting to walking distance users that you need a charger" = "Alerting to walking distance users that you need a charger";
+"Sign up with your email" = "Sign up with your email";
+
+//Battery states
+"perfect" = "perfect";
+"great" = "great";
+"very good" = "very good";
+"normal" = "normal";
+"low battery" = "low battery";
+"running out of battery" = "running out of battery";
+
+//Push notifications
+"Quick reply" = "Quick reply";
+"says: " = "says: ";
+"Yes, reply to message" = "Yes, reply to message";
+"I'm sorry, I can't help now" = "I'm sorry, I can't help now";
+"Input text here" = "Input text here";
+

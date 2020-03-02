@@ -1,0 +1,138 @@
+
+/* Class = "UILabel"; text = "All Rights Reserved"; ObjectID = "0Q1-Zy-098"; */
+"0Q1-Zy-098.text" = "All Rights Reserved";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "1To-PK-aaZ"; */
+"1To-PK-aaZ.placeholder" = "Contraseña";
+
+/* Class = "UIButton"; normalTitle = "Sign up with your email"; ObjectID = "3aS-lZ-0ah"; */
+"3aS-lZ-0ah.normalTitle" = "Sign up with your email";
+
+/* Class = "UITextField"; placeholder = "tomasfn@me.com"; ObjectID = "4wu-T9-Gug"; */
+"4wu-T9-Gug.placeholder" = "tomasfn@me.com";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "7Sk-ts-j55"; */
+"7Sk-ts-j55.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "7di-1C-o02"; */
+"7di-1C-o02.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "8VD-Tp-ZPb"; */
+"8VD-Tp-ZPb.text" = "User Name";
+
+/* Class = "UILabel"; text = "Forgot your password?"; ObjectID = "AUd-rX-cVN"; */
+"AUd-rX-cVN.text" = "Forgot your password?";
+
+/* Class = "UILabel"; text = "Hi!"; ObjectID = "GeX-Fd-Elr"; */
+"GeX-Fd-Elr.text" = "Hi!";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "HIP-Ws-bnw"; */
+"HIP-Ws-bnw.normalTitle" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Google"; ObjectID = "HaW-WI-P6s"; */
+"HaW-WI-P6s.normalTitle" = "Google";
+
+/* Class = "UILabel"; text = "Search distance in feets"; ObjectID = "OLv-1O-vSd"; */
+"OLv-1O-vSd.text" = "Search distance in feets";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "PGe-7S-MwI"; */
+"PGe-7S-MwI.placeholder" = "Email";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "PYt-8Z-Ekr"; */
+"PYt-8Z-Ekr.title" = "Item 2";
+
+/* Class = "UILabel"; text = "Me"; ObjectID = "Pfx-kb-a3c"; */
+"Pfx-kb-a3c.text" = "Me";
+
+/* Class = "UITextField"; placeholder = "Write a message"; ObjectID = "QSm-3i-eVt"; */
+"QSm-3i-eVt.placeholder" = "Write a message";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Rgz-L6-UaE"; */
+"Rgz-L6-UaE.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Sign up with your email"; ObjectID = "Ya1-PR-Ued"; */
+"Ya1-PR-Ued.text" = "Sign up with your email";
+
+/* Class = "UILabel"; text = "© Jolty 2018 "; ObjectID = "Yek-tZ-5V7"; */
+"Yek-tZ-5V7.text" = "© Jolty 2018 ";
+
+/* Class = "UITextField"; placeholder = "Distance range for seaching"; ObjectID = "bTl-gL-Sff"; */
+"bTl-gL-Sff.placeholder" = "Distance range for seaching";
+
+/* Class = "UILabel"; text = "Today, 8:32am"; ObjectID = "bi3-jz-zzf"; */
+"bi3-jz-zzf.text" = "Today, 8:32am";
+
+/* Class = "UIButton"; normalTitle = "INGRESAR"; ObjectID = "c5S-cD-xkI"; */
+"c5S-cD-xkI.normalTitle" = "INGRESAR";
+
+/* Class = "UILabel"; text = "0:15"; ObjectID = "dJF-1v-Jv3"; */
+"dJF-1v-Jv3.text" = "0:15";
+
+/* Class = "UILabel"; text = "PREFERENCIAS"; ObjectID = "dPR-wJ-ATL"; */
+"dPR-wJ-ATL.text" = "PREFERENCIAS";
+
+/* Class = "UILabel"; text = "O CON TU EMAIL"; ObjectID = "fRQ-lq-5WC"; */
+"fRQ-lq-5WC.text" = "O CON TU EMAIL";
+
+/* Class = "UILabel"; text = "I almost always carry the lightning charger with me and I am open to share it."; ObjectID = "gs3-nZ-Lo1"; */
+"gs3-nZ-Lo1.text" = "I almost always carry the charger with me and I am open to share it.";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "ikZ-t4-ia2"; */
+"ikZ-t4-ia2.normalTitle" = "Facebook";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "k60-3Y-eMm"; */
+"k60-3Y-eMm.title" = "Item 1";
+
+/* Class = "UIButton"; normalTitle = "INGRESÁ POR FACEBOOK"; ObjectID = "lKv-na-ony"; */
+"lKv-na-ony.normalTitle" = "INGRESÁ POR FACEBOOK";
+
+/* Class = "UITextField"; placeholder = "Confirmar Contraseña"; ObjectID = "m4x-yS-6h1"; */
+"m4x-yS-6h1.placeholder" = "Confirmar Contraseña";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "mbj-D9-UV2"; */
+"mbj-D9-UV2.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "Today, 8:30am"; ObjectID = "mih-OM-5yo"; */
+"mih-OM-5yo.text" = "Today, 8:30am";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "n03-zD-DZ5"; */
+"n03-zD-DZ5.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Menu option"; ObjectID = "oCX-9p-IZX"; */
+"oCX-9p-IZX.text" = "Menu option";
+
+/* Class = "UILabel"; text = "AppTitle"; ObjectID = "p5y-Rg-u0M"; */
+"p5y-Rg-u0M.text" = "AppTitle";
+
+/* Class = "UILabel"; text = "Today, 8:30am"; ObjectID = "p8w-KX-5tb"; */
+"p8w-KX-5tb.text" = "Today, 8:30am";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "pHp-Wf-mPa"; */
+"pHp-Wf-mPa.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "¿Sos Nuevo?, Registrate"; ObjectID = "pfx-eW-RjG"; */
+"pfx-eW-RjG.text" = "¿Sos Nuevo?, Registrate";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "soe-Uj-8T6"; */
+"soe-Uj-8T6.text" = "User Name";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "tZz-IY-Jjs"; */
+"tZz-IY-Jjs.placeholder" = "Contraseña";
+
+/* Class = "UILabel"; text = "¿ Olvidaste tu Clave ?"; ObjectID = "tnU-SQ-Iba"; */
+"tnU-SQ-Iba.text" = "¿ Olvidaste tu Clave ?";
+
+/* Class = "UILabel"; text = "Hold to talk"; ObjectID = "uFz-wK-mOq"; */
+"uFz-wK-mOq.text" = "Hold to talk";
+
+/* Class = "UILabel"; text = "Hi!"; ObjectID = "vgo-FT-scs"; */
+"vgo-FT-scs.text" = "Hi!";
+
+/* Class = "UILabel"; text = "Me"; ObjectID = "x83-T6-Jo9"; */
+"x83-T6-Jo9.text" = "Me";
+
+/* Class = "UILabel"; text = "Jolty is an App created by an indie dev who believes that gifting a screenshoot framed could be unironically the perfect gift.\n\nTake your screenshot.\nSelect the frame type.\nSelect the wrap style.\nPut the delivery address.\n\nWe take care of everything else."; ObjectID = "xq3-1i-apN"; */
+"xq3-1i-apN.text" = "Jolty is an App created by an indie dev who believes that gifting a screenshoot framed could be unironically the perfect gift.\n\nTake your screenshot.\nSelect the frame type.\nSelect the wrap style.\nPut the delivery address.\n\nWe take care of everything else.";
+
+/* Class = "UITextField"; placeholder = "Tomás Fernandez Nuñez"; ObjectID = "zpV-7S-OQF"; */
+"zpV-7S-OQF.placeholder" = "Tomás Fernandez Nuñez";

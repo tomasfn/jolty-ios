@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  Jolty
+
+  Created by Tomás Fernandez Nuñez on 30/09/2018.
+  Copyright © 2018 Tomás Fernandez Nuñez. All rights reserved.
+*/
+
+
+"Oops..." = "Uy...";
+"Ok" = "Ok";
+"Come, I'm here!" = "¡Ven, Estoy en aquí!";
+"I'm coming!" = "¡Voy para allí!";
+"Someone needs a charger:" = "necesita un cargador:";
+"Be the first to help!" = "Se el primero en ayudar!";
+"Cancel" = "Cancelar";
+"Okay, forgetful" = "Okay, olvidadizo";
+"Enter your email" = "Ingresá tu email";
+"Send" = "Enviar";
+"Empty field" = "Campo vacío";
+"Mail field is empty" = "Campo mail esta vacío";
+"You must be logged in order to fully use the App" = "¡Debes estar logueado para usar todas las funciones de la App!";
+"Do you want to log out?" = "Querés desloguearte?";
+"Log Out" = "Cerrar sesión";
+"has" = "tiene";
+"No" = "No";
+"Yes" = "Si";
+"Yes!" = "¡Si!";
+"So did you find" = "Así que encontraste a";
+"Not yet" = "Aún no";
+"Let's save battery" = "Ahorremos algo de bateria";
+"Go to Settings, then go to Battery and activate Low Power Mode" = "Ir a Ajustes, después ir a Batería y allí activa Modo de bajo consumo";
+"Go To Settings" = "Ir a Ajustes";
+"Location Access Requested" = "Se necesita acceso a la ubicación";
+"The location permission was not authorized. Please enable it in Settings to continue." = "El permiso de ubicación no fue autorizado. Por favor habilítalo en Ajustes para continuar";
+"Settings" = "Ajustes";
+"Login required" = "Se necesita estar logueado";
+"To fully use Jolty you must be signed in. Is very fast tho" = "¡Para usar todas las funciones de Jolty debes estar logueado!. Es bastante rápido";
+"Joltyrs found" = "Joltyrs encontrados";
+"You can't request" = "No se puede solicitar";
+"You cannot request a charger at this time. Sorry" = "¡No puedes solicitar un cargador en este momento!. ¡Perdón!";
+"Activity" = "Actividad";
+"My Settings" = "Mis Ajustes";
+"Search distance in meters" = "Distancia de búsqueda en metros";
+"Tap to find a charger sharer" = "Toca para encontrar a alguien que comparta su cargador";
+
+//Last user message
+"Use your last magic words to convince a rescuer to save you" = "Usa tus últimas palabras magicas para convencer al rescatista que te salve";
+"Use your last words to describe where you are and what you bring on" = "Usa tus últimas palabras para describir donde estas y que llevas puesto";
+"Describe why someone should lend you a charger" = "Describe porque alguien debería prestarte su cargador";
+
+"Forgot my charger at home! I invite you a coffee" = "Olvide el cargador en casa, te invito un cafe";
+"Send a jolty" = "Enviar jolty";
+"Bring help" = "Pedir ayuda";
+"You must convince the rescuer to save you" = "Debes convencer al rescatista para que te salve";
+"Push notifications now won't be received when someone near request a charger" = "¡Las notificaciones push están desactivadas!, nadie va a molestarte";
+"Push notifications now will be received when someone near you request a charger" = "¡Las notificaciones push están activadas!, te avisaremos cuando alguien cerca tuyo necesite un cargador";
+
+"Log in with facebook" = "Ingresar con facebook";
+
+"Email" = "Email";
+"Password" = "Contraseña";
+"Your email" = "Tu email";
+"Your Password" = "Tu contraseña";
+"Password must be longer" = "La contraseña debe ser mas larga";
+"Please enter a valid email" = "Por favor ingresa un email válido";
+"Confirm password" = "Confirmar contraseña";
+"Name" = "Nombre";
+"Last name" = "Apellido";
+"Your password again" = "Tu contraseña de nuevo";
+"Your first name" = "Tu nombre";
+"Your last name" = "Tu apellido";
+"Passwords must match" = "Las contraseñas deben coincidir";
+"Done" = "Listo";
+"Close" = "Cerrar";
+"Select which place" = "Elige un lugar";
+"Are you inside a place?" = "¿Te encuentras dentro de un lugar?";
+"Select yes if you want to choose a place, select no if you want to use your exact location" = "Seleccioná si, si quieres elegir un lugar. Pon No si quieres usar tu ubicación exacta";
+
+"You have" = "Tenes";
+"You must be logged in" = "Debes estar logueado";
+"you are" = "estas";
+"User created" = "Usuario creado";
+"No activity by now" = "Sin actividad por ahora";
+"You are doing it " = "Lo estas haciendo ";
+
+//Rate User
+"bad" = "mal";
+"normal" = "normal";
+"good" = "bien";
+"great" = "genial";
+
+"No activity yet!" = "¡No hay ninguna actividad aún!";
+"How was" = "Que te pareció";
+"Rating user" = "Calificando usuario";
+"Find quick!" = "¡Encuentrense rápido!";
+"I just found " = "Acabo de encontrar a ";
+"Are you in one of these places?" = "¿Estás en alguno de estos lugares?";
+
+"I almost always carry the charger with me and I am open to share it." = "Casi siempre llevo el cargador conmigo y puedo compartirlo.";
+"Alerting to walking distance users that you need a charger" = "Avisando a usuarios cercanos que necesitas un cargador";
+"Sign up with your email" = "Registrate con tu email";
+
+//Battery states
+"perfect" = "perfecto";
+"great" = "genial";
+"very good" = "muy bien";
+"normal" = "normal";
+"low battery" = "bateria baja";
+"running out of battery" = "quedándote sin batería";
+
+//Push notifications
+"Quick reply" = "Responder rápido";
+"says: " = "dice: ";
+"Yes, reply to message" = "Si, responder mensaje";
+"I'm sorry, I can't help now" = "Perdón, no puedo ayudarte ahora";
+"Input text here" = "Escribir texto";

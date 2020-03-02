@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pKK-Bp-0an" customClass="BatteryStatusView" customModule="Jolty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSd-rr-Nyg" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                    <subviews>
+                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="7yt-2p-qfN" userLabel="Info View">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your battery percentage is 30%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qGp-1l-kGZ">
+                                    <rect key="frame" x="67" y="17.5" width="241" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.54606119791666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="qGp-1l-kGZ" firstAttribute="centerX" secondItem="7yt-2p-qfN" secondAttribute="centerX" id="Ayh-3j-Amd"/>
+                                <constraint firstItem="qGp-1l-kGZ" firstAttribute="centerX" secondItem="7yt-2p-qfN" secondAttribute="centerX" id="UkO-ae-7k2"/>
+                                <constraint firstItem="qGp-1l-kGZ" firstAttribute="centerY" secondItem="7yt-2p-qfN" secondAttribute="centerY" id="YhZ-cc-86f"/>
+                                <constraint firstItem="qGp-1l-kGZ" firstAttribute="top" secondItem="7yt-2p-qfN" secondAttribute="top" constant="17.5" id="yDB-M8-m21"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="7yt-2p-qfN" firstAttribute="top" secondItem="MSd-rr-Nyg" secondAttribute="top" id="MuY-3E-sUI"/>
+                        <constraint firstAttribute="trailing" secondItem="7yt-2p-qfN" secondAttribute="trailing" id="TXs-mp-gEZ"/>
+                        <constraint firstItem="7yt-2p-qfN" firstAttribute="leading" secondItem="MSd-rr-Nyg" secondAttribute="leading" id="uq5-FS-noJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MSd-rr-Nyg" firstAttribute="top" secondItem="pKK-Bp-0an" secondAttribute="top" id="4qK-DF-JyR"/>
+                <constraint firstItem="MSd-rr-Nyg" firstAttribute="leading" secondItem="pKK-Bp-0an" secondAttribute="leading" id="5sX-ZF-gtV"/>
+                <constraint firstAttribute="trailing" secondItem="MSd-rr-Nyg" secondAttribute="trailing" id="m7k-O1-vfe"/>
+                <constraint firstAttribute="bottom" secondItem="MSd-rr-Nyg" secondAttribute="bottom" id="rz1-IB-J2l"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="pP3-y1-Rqc"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="infoLabel" destination="qGp-1l-kGZ" id="9T7-Kz-EHv"/>
+            </connections>
+            <point key="canvasLocation" x="51.5" y="-193.5"/>
+        </view>
+    </objects>
+</document>

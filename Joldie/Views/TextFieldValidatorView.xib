@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NeutraText-BookAlt.otf">
+            <string>NeutraText-BookAlt</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="10w-UT-cKp" customClass="TextFieldValidatorView" customModule="Joldie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ug1-3o-mrI" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                    <subviews>
+                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="i9K-10-LNM" userLabel="Info View">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revisar contraseñas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyC-rW-Y9f">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                    <fontDescription key="fontDescription" name="NeutraText-BookAlt" family="Neutra Text" pointSize="17"/>
+                                    <color key="textColor" red="0.88273555039999996" green="0.66573601959999995" blue="0.1788703203" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="RyC-rW-Y9f" firstAttribute="top" secondItem="i9K-10-LNM" secondAttribute="top" id="Her-e7-0tK"/>
+                                <constraint firstAttribute="trailing" secondItem="RyC-rW-Y9f" secondAttribute="trailing" id="Tod-Vt-5Z7"/>
+                                <constraint firstItem="RyC-rW-Y9f" firstAttribute="leading" secondItem="i9K-10-LNM" secondAttribute="leading" id="d7P-q6-GMj"/>
+                                <constraint firstAttribute="bottom" secondItem="RyC-rW-Y9f" secondAttribute="bottom" id="jnR-Y5-Q8v"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="i9K-10-LNM" secondAttribute="trailing" id="Ba3-Fs-nQE"/>
+                        <constraint firstItem="i9K-10-LNM" firstAttribute="centerY" secondItem="ug1-3o-mrI" secondAttribute="centerY" id="G4D-CG-yf0"/>
+                        <constraint firstItem="i9K-10-LNM" firstAttribute="leading" secondItem="ug1-3o-mrI" secondAttribute="leading" id="ZZb-fV-KpP"/>
+                        <constraint firstItem="i9K-10-LNM" firstAttribute="top" secondItem="ug1-3o-mrI" secondAttribute="top" id="zHv-M4-zfD"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ug1-3o-mrI" secondAttribute="trailing" id="9Cc-Zd-1s7"/>
+                <constraint firstItem="ug1-3o-mrI" firstAttribute="leading" secondItem="10w-UT-cKp" secondAttribute="leading" id="QQm-jh-1kz"/>
+                <constraint firstItem="ug1-3o-mrI" firstAttribute="top" secondItem="10w-UT-cKp" secondAttribute="top" id="u7e-V8-Fpi"/>
+                <constraint firstAttribute="bottom" secondItem="ug1-3o-mrI" secondAttribute="bottom" id="wBh-wc-HtH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="SeC-Vh-QRH"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="descriptionLbl" destination="RyC-rW-Y9f" id="FS1-Og-VIQ"/>
+            </connections>
+            <point key="canvasLocation" x="51.5" y="-193.5"/>
+        </view>
+    </objects>
+</document>

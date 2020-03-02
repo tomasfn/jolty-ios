@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vfQ-Mw-1HU" customClass="SearchingAnimationView" customModule="Jolty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looking a pure soul who would share his charger with you and is in a walk distance range" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiF-MG-iPV">
+                    <rect key="frame" x="16" y="0.0" width="343" height="132"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="343" id="9PR-OM-ek4"/>
+                        <constraint firstAttribute="height" constant="132" id="Wqn-RQ-pgJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="findCharger" translatesAutoresizingMaskIntoConstraints="NO" id="sn5-rY-Xp6">
+                    <rect key="frame" x="137.5" y="140" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="suX-bj-OHF"/>
+                        <constraint firstAttribute="height" constant="100" id="xYn-ZY-Ryx"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O54-16-aBS">
+                    <rect key="frame" x="16" y="579" width="343" height="55"/>
+                    <color key="backgroundColor" red="1" green="0.42352941176470588" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="7Yc-gr-Aiw"/>
+                        <constraint firstAttribute="width" constant="343" id="vII-GN-rbM"/>
+                    </constraints>
+                    <state key="normal" title="Cancelar">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelSearchingAction:" destination="vfQ-Mw-1HU" eventType="touchUpInside" id="xei-rR-yxO"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Joltyrs found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zub-PY-1w4">
+                    <rect key="frame" x="16" y="508" width="343" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="kpy-WT-4wE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="GiF-MG-iPV" firstAttribute="centerX" secondItem="vfQ-Mw-1HU" secondAttribute="centerX" id="BLa-jD-5Ng"/>
+                <constraint firstItem="O54-16-aBS" firstAttribute="trailing" secondItem="cSS-Vg-5ie" secondAttribute="trailing" constant="-16" id="ITh-dv-LQT"/>
+                <constraint firstItem="sn5-rY-Xp6" firstAttribute="top" secondItem="GiF-MG-iPV" secondAttribute="bottom" constant="8" id="Ofz-9k-cfs"/>
+                <constraint firstItem="O54-16-aBS" firstAttribute="leading" secondItem="cSS-Vg-5ie" secondAttribute="leading" constant="16" id="USW-IQ-vY2"/>
+                <constraint firstItem="Zub-PY-1w4" firstAttribute="leading" secondItem="cSS-Vg-5ie" secondAttribute="leading" constant="16" id="c3d-Be-I0C"/>
+                <constraint firstItem="Zub-PY-1w4" firstAttribute="centerX" secondItem="vfQ-Mw-1HU" secondAttribute="centerX" id="cds-oF-gO4"/>
+                <constraint firstItem="GiF-MG-iPV" firstAttribute="top" secondItem="vfQ-Mw-1HU" secondAttribute="top" id="gLb-f8-KTD"/>
+                <constraint firstItem="sn5-rY-Xp6" firstAttribute="centerX" secondItem="vfQ-Mw-1HU" secondAttribute="centerX" id="oxj-LN-7gc"/>
+                <constraint firstItem="O54-16-aBS" firstAttribute="top" secondItem="Zub-PY-1w4" secondAttribute="bottom" constant="46" id="pdP-Yw-OoG"/>
+                <constraint firstItem="O54-16-aBS" firstAttribute="bottom" secondItem="cSS-Vg-5ie" secondAttribute="bottom" constant="-33" id="pv9-94-s3C"/>
+                <constraint firstItem="cSS-Vg-5ie" firstAttribute="trailing" secondItem="Zub-PY-1w4" secondAttribute="trailing" constant="16" id="yA0-1U-ass"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="cSS-Vg-5ie"/>
+            <connections>
+                <outlet property="JoltyrsFoundLbl" destination="Zub-PY-1w4" id="ZD9-nI-rsI"/>
+                <outlet property="cancelSearchingBtn" destination="O54-16-aBS" id="nJI-6x-1LM"/>
+                <outlet property="descriptionLbl" destination="GiF-MG-iPV" id="4Ea-04-TwE"/>
+                <outlet property="lightningImageView" destination="sn5-rY-Xp6" id="C7q-lI-I55"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="95.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="findCharger" width="170.5" height="170.5"/>
+    </resources>
+</document>
